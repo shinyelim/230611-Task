@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.visually-hidden{
+
+}
+.logo img{
+  width: 70px;
+ display: block;
+ margin: 0px auto;
+
+}
+
+ 
+.gnb-list{
+ 
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color:rgb(255, 204, 0);
+
+}
+.background{
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-image: url(../imges/lego.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+@media screen and (max-width:768px) {
+  .gnb-list{
+    display: none;
+  }
+  .visually-hidden{
+    display: none;
+  }
+  .icon-list{
+    display: none;
+  }
+  .lnb-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   } 
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color:rgb(255, 204, 0)}
+
+    .logo img{
+      width: 85px;
+     
+    
+    }
+    .logo{
+      position: absolute;
+      left: 43%; 
+    }
+    .gnb-icon-btn{
+      font-size: 25px;
+      color: rgb(222, 0, 0);
+      position: relative;
+      left: 5%;
+    }
+    .gnb-icon-buttom{
+      font-size: 25px;
+      position: absolute;
+      left: 90%;}
+
+      .lnb-list{
+        display: flex;
+       
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        left: 50px;
+        
+       
+      }
+    .lnb-item{
+      font-size: 10px;
+      
+   
+      
+      
+    } 
+    .lnb-item a {
+      padding: 0 20px;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 0 10px;
+    }
+    .background{
+      width: 100%;
+      height: 250px;
+      background-position: center;
+      background-image: url(../imges/lego.png);
+      background-repeat: no-repeat;
+      background-size:100%
+    
+
+    } 
+}
+
+ @media screen and (max-width:1024px)  {
+  .gnb-list{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 160px;
+    top: 40px;
+    
+   
+  }
+ 
+  .gnb-item a {
+    font-weight: 900;
+    margin-left: 20px;
+    align-items: center;
+    padding:15px 0px;
+  
+  }
+  nav{
+    padding: 20px 0;
+  }
+  .logo img{
+    width: 120px;
+    padding: 0 15px;
+   
+    
+
+  }  
+   
+  
+  .visually-hidden{
+    display: none;
+  }
+  .sm-olny{
+    display: none;
+  }
+  
+     
+      
+     
+ 
+  .icon-list{
+  display: flex; 
+  justify-content: space-between;
+ 
+  
+  }
+  .user-icon{
+    background-size: 43px;
+    background-image: url(../imges/user.jpeg);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 11%;
+    top: 30px;
+  
+  }
+  .icon-list{
+    margin-right: 35px;
+  }
+  .icon-item{
+    margin-left: 10px;
+  }
+  .icon-item i{
+  font-size: 25px;
+  
+  }
+  .gnb-icon-buttom i{
+    font-size: 25px;
+  }
+  .gnb-icon-buttom{
+    margin-left: 55%;
+  }
+  .lnb-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    position: absolute;
+   
+    padding: 15px;
+  }
+  .lnb-item a{
+    padding: 0 20px;
+    font-weight: 800;
+    font-size: 16px;
+  }
+  .background{
+    width: 1030px;
+    height: 400px;
+    background-image: 400px;
+    margin-top: 50px;
+  }
+}
+@media screen and(max-width:1200px) {
+  
+} 
