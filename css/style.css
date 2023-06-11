@@ -110,7 +110,7 @@ nav{
     .lnb-item a {
       padding: 0 20px;
       font-size: 10px;
-      font-weight: 700;
+      font-weight: bold;
       padding: 0 10px;
     }
     .background{
@@ -119,13 +119,53 @@ nav{
       background-position: center;
       background-image: url(../imges/lego.png);
       background-repeat: no-repeat;
-      background-size:100%
+      background-size:100%;
+      margin-top: 35px;
+      
     
 
     } 
-}
+    .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 200px;
+    height: 100vh;
+    padding: 32px 20px;
+    background-color: #fff;
+    transform: translateX(-200px);
+    transition: transform 300ms ease-in-out;
+    }
+    .side-menu-item a {
+      display: block;
+      padding: 10px;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+    }
+    .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    background-color:rgba(63, 65, 80, 0.5);
+    transition: all 300ms ease-in-out;
 
- @media screen and (max-width:1024px)  {
+    }
+    .overlay.is-activ{
+      visibility: visible;
+      opacity: 1;
+    }
+
+    }
+  
+
+
+/* @media screen and (max-width:1024px)  {
   .gnb-list{
     display: flex;
     justify-content: space-between;
