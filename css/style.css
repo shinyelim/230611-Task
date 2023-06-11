@@ -1,4 +1,4 @@
-*{
+/**{
   margin: 0;
   padding: 0;
   font-family: 'Bebas Neue', sans-serif;
@@ -43,9 +43,9 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
 
-}
+}*/
 
-/*@media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
   .gnb-list{
     display: none;
   }
@@ -161,7 +161,7 @@ nav{
       opacity: 1;
     }
 
-    }*/
+    }
   
 
 
