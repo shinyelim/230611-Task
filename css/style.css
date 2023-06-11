@@ -13,7 +13,10 @@ a{
   color: rgb(0, 0, 0);
 }
 .visually-hidden{
-
+display: none;
+}
+.sm-olny{
+  display: none;
 }
 .logo img{
   width: 70px;
@@ -69,11 +72,11 @@ nav{
     align-items: center;
   
     margin: 0 auto;
-    padding: 15px 0;
+    padding: 20px 0;
     background-color:rgb(255, 204, 0)}
 
     .logo img{
-      width: 85px;
+      width: 65px;
      
     
     }
@@ -167,7 +170,15 @@ nav{
   
 
 
- /*@media screen and (max-width:1024px)  {
+
+
+@media screen and(max-width:1200px) {
+  
+} 
+
+
+
+@media screen and (max-width:1024px)  {
   .gnb-list{
     display: flex;
     justify-content: space-between;
@@ -270,7 +281,3 @@ nav{
     margin-top: 50px;
   }
 }
-
-@media screen and(max-width:1200px) {
-  
-} 
