@@ -45,7 +45,7 @@ nav{
 
 }
 
-@media screen and (max-width:768px) {
+/*@media screen and (max-width:768px) {
   .gnb-list{
     display: none;
   }
@@ -161,11 +161,11 @@ nav{
       opacity: 1;
     }
 
-    }
+    }*/
   
 
 
-/* @media screen and (max-width:1024px)  {
+ @media screen and (max-width:1024px)  {
   .gnb-list{
     display: flex;
     justify-content: space-between;
@@ -174,6 +174,9 @@ nav{
     top: 40px;
     
    
+  }
+  .is-active{
+    display: none;
   }
  
   .gnb-item a {
@@ -192,7 +195,13 @@ nav{
    
     
 
-  }  
+  } 
+  .visually-hidden{
+    display: none;
+  } 
+  .side-menu-list{
+    display: none;
+  }
    
   
   .visually-hidden{
@@ -259,6 +268,7 @@ nav{
     margin-top: 50px;
   }
 }
+
 @media screen and(max-width:1200px) {
   
 } 
